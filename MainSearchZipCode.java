@@ -43,9 +43,9 @@ public class MainSearchZipCode {
                 searchedZipCode = readerInput.nextLine();
 
                 if (!searchedZipCode.equalsIgnoreCase("exit")) {
-                    if (response.statusCode() == 200)
+                    if (response. statusCode() == 200)
                         writer.write(",\n");
-                        
+
                     url = "https://viacep.com.br/ws/";
                 }
             }
